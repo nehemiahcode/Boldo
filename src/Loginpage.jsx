@@ -74,7 +74,7 @@ function LogIn() {
         <Mainlayout>
           <div
             className=" container w-[100%] md:w-[100%] h-[auto] pb-9 lg:h-[auto] lg:pb-10 md:h-[700px] bg-slate-200 shadow-md
- rounded-sm mt-9 mx-auto pt-16"
+         rounded-sm mt-9 mx-auto pt-16"
           >
             <h1 className=" text-4xl font-medium text-slate-950 px-6 pb-6 text-center">
               Welcome back
@@ -82,11 +82,11 @@ function LogIn() {
             <form
               onSubmit={handleSubmit(onSubmit)}
               className=" bg-white w-[91%] md:w-[70%] lg:w-[50%] h-[500px] md:h-[500px]
-   mx-auto rounded-lg shadow-lg flex  pt-10 flex-col px-5 md:px-14"
+                   mx-auto rounded-lg shadow-lg flex  pt-10 flex-col px-5 md:px-14"
             >
               <h1 className="text-4xl font-bold text-left pb-4">Log In</h1>
               {Inputs.map((input) => (
-                <div key={input.id} className=" w-[auto] h-auto  mb-3 ">
+                <div key={input.id} className=" w-[100%] h-auto  mb-3 ">
                   <label className=" text-lg font-semibold text-zinc-800 pb-2">
                     {input.label}
                   </label>
@@ -95,7 +95,8 @@ function LogIn() {
                     autoComplete="off"
                     type={input.inputs}
                     {...register(input.type)}
-                    className=" bg-slate-100 h-8 w-[290px] invalid:border-red-600 px-3 py-6 text-lg font-[400] rounded-md border-2 border-gray-400"
+                    className=" bg-slate-100 h-8 w-[90%] invalid:border-red-600
+                     px-3 py-6 text-lg font-[400] rounded-md border-2 border-gray-400"
                     placeholder={input.placeholder}
                   />
                   <br />
