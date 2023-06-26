@@ -10,7 +10,7 @@ function AllPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setPreloading(false);
-    }, 800);
+    }, 1500);
     return () => clearTimeout(timer);
   }, []);
   return (
