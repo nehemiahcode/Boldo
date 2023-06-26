@@ -109,7 +109,7 @@ function SignInForm() {
                     autoComplete="off"
                     type={input.inputs}
                     {...register(input.type)}
-                    className=" bg-slate-100 h-8 w-[90%] invalid:border-red-600 px-3 py-6 text-lg font-[400] rounded-md border-2 border-gray-400"
+                    className=" bg-slate-100 h-8 w-[94%] invalid:border-red-600 px-3 py-6 text-lg font-[400] rounded-md border-2 border-gray-400"
                     placeholder={input.placeholder}
                   />
                   <br />
