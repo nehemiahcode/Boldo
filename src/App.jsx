@@ -19,7 +19,7 @@ function App() {
   });
 
   const MenuItems = [
-    { id: 0, List: "Home", Link: "/home" },
+    { id: 0, List: "Home", Link: "/" },
     { id: 1, List: "Values", Link: "/values" },
     { id: 2, List: "Team", Link: "/teams" },
   ];
